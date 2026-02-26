@@ -4,12 +4,12 @@ class Cilindro{
         this.altura = altura
     }
 
-    calcArea(){
+    calcAreaB(){
         return Math.PI * this.raio**2
     }
 
     calcVolume(){
-        return this.altura * this.calcArea()
+        return this.altura * this.calcAreaB()
     }
 }
 module.exports = Cilindro
